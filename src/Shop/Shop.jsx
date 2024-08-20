@@ -5,11 +5,12 @@ import img3 from "../img/product_36.png"
 import img4 from "../img/product_3.png"
 const Shop = () => {
   return (
-    <div id="shop" className="bg-black">
-      <section id="shop" >
+    <div>
+      <section id="shop">
         <p>Shop By Collection</p>
         <hr />
        <div className="card-body">
+        
         <div className="card ">
           <img src={img1} alt=""  />
           <h1>MEN</h1>
