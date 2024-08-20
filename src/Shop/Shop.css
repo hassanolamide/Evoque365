@@ -11,6 +11,9 @@
   
   .card-body {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     width: 100%;
