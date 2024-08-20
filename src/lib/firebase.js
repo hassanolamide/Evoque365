@@ -1,10 +1,10 @@
-
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 import { getAnalytics } from "firebase/analytics";
 
+// Your Firebase config
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_API_KEY,
   authDomain: "evoque350.firebaseapp.com",
@@ -19,6 +19,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
-export const auth = getAuth();
-export const db = getFirestore();
-export const storage = getStorage();;
+// Initialize services with the app instance
+export const auth = getAuth(app);
+export const db = getFirestore(app);
+export const storage = getStorage(app);
