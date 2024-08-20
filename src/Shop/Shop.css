@@ -1,0 +1,71 @@
+#shop {
+    background-color: rgba(0, 0, 0, 0.859);
+    color: white;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-body {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  p {
+    font-size: 30px;
+  }
+  
+  hr {
+    width: 200px;
+    border: 2px solid #f6d955;
+  }
+  
+  .card {
+    width: 250px;
+    height: 300px;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative; /* Updated */
+    scroll-snap-align: start;
+  }
+  
+  .card img {
+   
+    height: 100%; /* Updated */
+    object-fit: cover; /* Updated */
+    opacity: 0.8;
+  }
+  
+  .card h1 {
+    position: absolute; /* Positioning text on top of the image */
+    top: 50%; /* Center the text vertically */
+    left: 50%; /* Center the text horizontally */
+    transform: translate(-50%, -50%); /* Ensure the text is perfectly centered */
+    font-size: 30px;
+    color: #f6d955;
+    z-index: 2; /* Ensure the text is above the image */
+  }
+  
+  @media only screen and (max-width: 480px) {
+    #shop {
+      margin: 10px 0;
+      width: 100%;
+    }
+  
+    .card-body {
+      padding: 0; 
+    }
+  
+    .card {
+      min-width: 100%;
+    }
+  }
