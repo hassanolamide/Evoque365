@@ -12,7 +12,7 @@ import Notification from './Notification/Notification';
 import { onAuthStateChanged } from 'firebase/auth';
 import { auth } from './lib/firebase';
 import About from './About/About.jsx';
-import Collections from './About/Collections/Collections.jsx';
+import Collections from './Collections/Collections.jsx';
 
 function App() {
   const [showRegister, setShowRegister] = useState(false);
