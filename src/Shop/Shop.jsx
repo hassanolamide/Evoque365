@@ -1,8 +1,8 @@
 import "./Shop.css"
-import img1 from "../img/product_20.png"
-import img2 from "../img/product_6.png"
-import img3 from "../img/product_36.png"
-import img4 from "../img/product_3.png"
+import img1 from "../img/6c9cb96428172df2794d36176a1c0963.jpg"
+import img2 from "../img/IMG-20240905-WA0038.jpg"
+import img3 from "../img/IMG-20240905-WA0029.jpg"
+import img4 from "../img/IMG-20240826-WA0209.jpg"
 const Shop = () => {
   return (
     <div>
@@ -13,19 +13,19 @@ const Shop = () => {
         
         <div className="card ">
           <img src={img1} alt=""  />
-          <h1>MEN</h1>
+      
         </div>
         <div className="card">
           <img src={img2} alt="" />
-          <h1>WOMEN</h1>
+         
         </div>
         <div className="card">
           <img src={img3} alt="" />
-          <h1>KIDS</h1>
+         
         </div>
         <div className="card">
           <img src={img4} alt="" />
-          <h1>EXCLUSIVE</h1>
+          
         </div>
        </div>
       </section>

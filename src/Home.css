@@ -5,6 +5,8 @@ box-sizing: border-box;
 }
 .home{
     min-height: 90vh;
+    background: linear-gradient(180deg, #000000 ,#FFFFFF 190%);
+    color: #ffc107;
 }
 .who{
     display: flex;
@@ -26,8 +28,9 @@ box-sizing: border-box;
     button{
         width: 100px;
         height: 40px;
-        background-color: #f6d955 ;
-        color:black ;
+        background-color:black;
+        border-radius: 50px;
+        color: #ffc107;
         margin: 20px 0px;
     }
     p{
@@ -62,7 +65,7 @@ box-sizing: border-box;
       
     }
     button{
-        background-color:  #f6d955;
+        background-color: #ffc107;
         width: 90px;
         height: 50px;
         border-radius: 10px;
@@ -108,7 +111,7 @@ box-sizing: border-box;
         padding: 20px;
         h1{
            font-size: 40px;
-           color: #f6d955;
+           color: #ffc107;
         
         }
         p{
@@ -180,6 +183,7 @@ box-sizing: border-box;
         
           .us h1 {
             font-size: 28px;
+            color: #ffc107;
           }
         
           .us p {

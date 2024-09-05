@@ -47,7 +47,7 @@ const Navbars = () => {
         </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href="">
-           <a href="#shop">Shop</a> 
+           <a href="shop">Shop</a> 
           </Link>
         </NavbarItem>
         <NavbarItem>
@@ -57,7 +57,7 @@ const Navbars = () => {
         </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href="#">
-           <a href="#collection">Collections</a> 
+           <a href="collection">Collections</a> 
           </Link>
         </NavbarItem>
         
@@ -66,6 +66,7 @@ const Navbars = () => {
       <NavbarContent justify="end">
      
       <CiShoppingCart />
+      <div className="nav-cart-count">0</div>
      
        <div className="but">
       <button onClick={handleLogin}>Login</button>

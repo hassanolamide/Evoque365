@@ -151,7 +151,7 @@ const Register = () => {
                   </Dropdown>
                 </ModalBody>
                 <ModalFooter>
-                  <Button color="danger" variant="flat" onPress={onClose}>
+                  <Button color="danger" variant="flat" onPress={onClose } style={{display:"none"}}>
                     Close
                   </Button>
 

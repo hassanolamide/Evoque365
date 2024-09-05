@@ -27,6 +27,19 @@
 button:active{
     background: #f3f3f3;
 }
+.nav-cart-count{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+    margin-left: -25px;
+    border-radius: 11px;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+}
 @media only screen and (max-width: 480px){
    .but{
     display: none;
