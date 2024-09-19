@@ -123,6 +123,85 @@ box-sizing: border-box;
             
     }
 }
+#footer{
+  width: 100%;
+  min-height: 60vh;
+  border-top: 1px solid black;
+  padding: 10px 0px;
+  hr{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 94%;
+   border: 1px solid black;
+    margin-top: 70px;
+  }
+  .alejo{
+    padding: 10px 30px;
+    p{
+      font-size: 18px;
+    }
+  }
+  .all{
+    display: flex;
+    width: 100%;
+    padding: 0px 30px;
+    justify-content: space-between;
+    .logo{
+      p{
+        font-size: 12px;
+        width:60%;
+        padding:5px 0px;
+      }
+      h1{
+        font-size: 18px;
+        font-weight: 700;
+        padding-top: 10px;
+      }
+      div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: white;
+        width: 250px;
+        height: 40px;
+        border-radius: 80px;
+        border: 1px solid black;
+        margin: 10px 0px;
+    }
+    input{
+        width: 100px;
+        margin-left: 10px;
+        border: none;
+        outline: none;
+        font-family: poppins;
+        font-size: 14px;
+    }
+    button{
+        width: 90px;
+        height: 40px;
+        border-radius: 80px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+    }
+    .link{
+      h1{
+        font-weight: 900;
+      }
+      a{
+        padding: 5px 0px;
+      }
+      p{
+        font-size: 14px;
+        padding: 3px 0px;
+      }
+    }
+  }
+}
 @media only screen and (max-width: 480px){
     .who{
         width: 100%;
@@ -193,7 +272,10 @@ box-sizing: border-box;
           }
         
     }
-    
+    .all{
+      display: flex;
+      flex-direction: column;
+    }
 }
 @media only screen and (max-width: 768px) {
     #about{

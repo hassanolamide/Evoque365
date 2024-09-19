@@ -5,7 +5,7 @@ import img2 from "./img/IMG-20240905-WA0038.jpg"
 import img3 from "./img/IMG-20240905-WA0029.jpg"
 import img4 from "./img/IMG-20240826-WA0209.jpg"
 import img5 from "./img/815f7ae5f4a972621bf9346b48b84076.jpg"
-
+import logo from "./img/Asset 1.svg"
 const Home = () => {
   
   return (
@@ -68,6 +68,51 @@ const Home = () => {
       <section id="collection">
       <p>Our exclusive clothing collection is coming soon! Stay tuned for the latest styles and trends. We cant wait to share it with you!</p>
       <button>Check Out</button>
+      </section>
+      <section id="footer">
+    <div className="all">
+    <div className="logo">
+    <img src={logo} alt="" className='w-[200px]'/>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit.</p>
+    <h1>Subscribe to our channel</h1>
+    <div>
+        <input type="email" name="" placeholder='Enter Your Email' id="" />
+        <button>Subcribe</button>
+      </div>
+    </div>
+  
+    <div className="link">
+      <h1>Quick Link</h1>
+      <div className="flex flex-col">
+      <a href="shop">Home</a> 
+      <a href="shop">About Us</a> 
+      <a href="shop">Shop</a> 
+      <a href="shop">Collection</a>
+      </div>
+    </div>
+    <div className="link">
+      <h1>Quick Link</h1>
+      <div className="flex flex-col">
+      <a href="shop">Payment</a> 
+      <a href="shop">Refund</a> 
+      <a href="shop"> Delivery Policy</a> 
+      <a href="shop">FAQs</a>
+      </div>
+    </div>
+ 
+    <div className="link">
+      <h1>Quick Link</h1>
+      <div className="flex flex-col">
+      <p>123, Street name, Lagos, Nigeria</p> 
+      <p>+234 (0)80XXXXXXXXX</p> 
+      
+      </div>
+    </div>
+    </div>
+    <hr />
+    <div className="alejo">
+    <p>© 2024. Alejo. All rights reserved.</p>
+    </div>
       </section>
      
     </div>
