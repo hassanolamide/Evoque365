@@ -15,11 +15,11 @@ box-sizing: border-box;
     padding:3.5rem;
 }
 .text{
-    width: 50%;
+    width: 75%;
     h1{
         font-size: 50px;
         font-weight: 800;
-        width: 70%;
+        width: 84%;
         justify-content: center;
         align-items: center;
         text-align: left;

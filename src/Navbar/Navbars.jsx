@@ -41,7 +41,7 @@ const Navbars = () => {
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
       <NavbarItem isActive>
-          <Link href="/" aria-current="page" className='text-[#f6d955]'>
+          <Link href="/" aria-current="page" className='text-[#ffc107]'>
             Home
           </Link>
         </NavbarItem>

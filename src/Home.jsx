@@ -13,7 +13,7 @@ const Home = () => {
    <section className="h-[100%] home">
         <div className=" who">
         <div className=" text">
-          <h1>Shop Smart, Dress Trendy</h1>
+          <h1>Style differently, Stay unique</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, adipisci maiores nihil cumque illo quos, mollitia similique dolore fugiat ipsam dolores architecto voluptas molestias sequi? Beatae, itaque repellat. </p>
         <button>Shop Now</button>
         </div>
